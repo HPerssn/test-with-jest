@@ -20,5 +20,5 @@ test("peek on stack with two or more elements returns the top element", () => {
 
 test("push adds an element to the empty stack", () => {
   stack.push("first element");
-  expect(stack.peek()).toBe("first");
+  expect(stack.peek()).toBe("first element");
 });

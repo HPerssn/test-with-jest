@@ -32,19 +32,9 @@ describe('Clicking "Pusha till stacken"', () => {
     await alert.sendKeys("Bananer");
     await alert.accept();
   });
-});
 
-test("The stack should be empty in the beginning", async () => {
-  let stack = await driver.findElement(By.id("top_of_stack")).getText();
-  expect(stack).toEqual("wrong value");
-});
-
-describe('Clicking "Pusha till stacken"', () => {
-  it("should open a prompt box", async () => {
-    let push = await driver.findElement(By.id("push"));
-    await push.click();
-    let alert = await driver.switchTo().alert();
-    await alert.sendKeys("wrong value");
-    await alert.accept();
+  test("The stack should contain the pushed item", async () => {
+    let stack = await driver.findElement(By.id("top_of_stack")).getText();
+    expect(stack).toEqual("item");
   });
 });
