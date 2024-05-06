@@ -1,0 +1,22 @@
+{
+  "name": "test-with-jest",
+  "version": "1.0.0",
+  "description": "Jest + npm lab session",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HPerssn/test-with-jest.git"
+  },
+  "author": "Henrik Persson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HPerssn/test-with-jest/issues"
+  },
+  "homepage": "https://github.com/HPerssn/test-with-jest#readme"
+}
