@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/HPerssn/test-with-jest/issues"
   },
-  "homepage": "https://github.com/HPerssn/test-with-jest#readme"
+  "homepage": "https://github.com/HPerssn/test-with-jest#readme",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
